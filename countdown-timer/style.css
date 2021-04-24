@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    background-image: url('./birthday.jpg');
+    background-position: center;
+    font-family: 'poppins',sans-serif;
+}
+
+.container {
+    background-color:rgba(241, 241, 241, .5);
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    border: 1.5px solid black;
+}
+
+.container div h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 800;
+    
+}
+
+.container2{
+    background-color:rgba(214, 214, 214, 0.6);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    
+}
+
+.Big-text{
+    font-size: 80px;
+}
+
+.container2 div span{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container2 div{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+
